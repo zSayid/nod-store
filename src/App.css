@@ -1,0 +1,22 @@
+.login-box {
+    width: 100%;
+    max-width: 400px; /* Desktopda ortiqcha kengaymasin */
+  }
+  
+  @media (max-width: 576px) {
+    .form-signin {
+      padding: 0 15px;
+    }
+  }
+  
+  .register-box {
+    width: 100%;
+    max-width: 400px; /* Desktopda limit */
+  }
+  
+  @media (max-width: 576px) {
+    .form-signin {
+      padding: 0 15px;
+    }
+  }
+  
