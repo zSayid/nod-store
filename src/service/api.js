@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getItem } from "../helpers/persistence-storage";
 
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://nod-store.onrender.com/api";
 
 axios.interceptors.request.use(config => {
 	const token = getItem('token')
